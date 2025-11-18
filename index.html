@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizQuest - Informatika</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1><span class="highlight">Quiz</span>Quest</h1>
+            <p>Game Edukasi Interaktif | Skor: <span id="score-display">0</span></p>
+            <hr>
+        </header>
+
+        <div id="quiz-area">
+            <h2 id="question-text">Pertanyaan akan muncul di sini...</h2>
+
+            <div id="answer-buttons">
+                <button class="btn">Opsi A</button>
+                <button class="btn">Opsi B</button>
+                <button class="btn">Opsi C</button>
+                <button class="btn">Opsi D</button>
+            </div>
+        </div>
+
+        <button id="next-btn">Lanjut</button>
+
+        <div id="result-area" class="hidden">
+            <h2>Kuis Selesai!</h2>
+            <p>Skor Akhir Anda: <span id="final-score">0</span></p>
+            <button id="restart-btn">Main Lagi</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
